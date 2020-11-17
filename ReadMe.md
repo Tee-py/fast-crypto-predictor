@@ -5,4 +5,4 @@
 ** clone the repository
 ** cd into the project directory
 ** run "pip install -r requirements.txt"
-** run "uvicorn main:api --workers=1 --reload
+** run "uvicorn main:api --reload --workers 1 --host 0.0.0.0 --port 8008"
