@@ -7,5 +7,5 @@ api = FastAPI()
 def root():
     return {
         "status": True,
-        "data": "Welcome to FastApi"
+        "data": "Welcome to FastApi Crypto Predictor"
     }
