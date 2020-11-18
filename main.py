@@ -9,3 +9,9 @@ def root():
         "status": True,
         "data": "Welcome to FastApi Crypto Predictor"
     }
+
+def get_something():
+    return "Something"
+
+def another_get():
+    return "Jus for fun"
